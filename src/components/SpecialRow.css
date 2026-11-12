@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto 50px;
+  color: black;
+  font-size: 35px;
+  background-color:burlywood ;
+}
+
+.item.reverse {
+  flex-direction: row-reverse;
+}
+
+.item-text {
+  flex: 1;
+}
+
+.item-image {
+  flex: 1;
+}
+
+.item-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+}

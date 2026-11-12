@@ -1,0 +1,57 @@
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/20/26/91/73/360_F_2026917392_Y7PrOw4xCIOaq2kVLeSVWYxA6MmPRHiy.jpg") ;
+    background-size: cover;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    background-color: brown;
+    padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 40px;
+  font-weight: bold;
+  background-color: rgba(120, 30, 30, 0.9);
+  
+}
+
+.logo {
+  font-size: 56px;
+  margin: 0;
+  color: antiquewhite;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.nav-links a:hover {
+  color: #ffd27f;
+}
+
+.order-btn {
+  background-color: #ffd27f;
+  color: #4a1c1c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.order-btn:hover {
+  background-color: blanchedalmond;
+}
